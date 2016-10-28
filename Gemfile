@@ -10,6 +10,9 @@ gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 
+gem 'bootstrap-sass'
+gem 'bootstrap_flash_messages'
+
 gem 'slim'
 
 group :development, :test do
