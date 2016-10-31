@@ -1,0 +1,42 @@
+#home-index-container
+  .container
+    .row
+      .col-md-3
+        = render 'shared/user_information'
+        = render 'shared/left_menu'
+        .social-links
+          = render 'shared/social_links'
+          = render 'shared/copyright'
+      .col-md-9
+        .content-wrap
+          section#who-am-i
+            .main-title
+              h2 Who am i
+            .content
+              h1.name Doan Hoang
+              h3.position Web developer
+              .description
+                | Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem.
+              .row
+                .col-md-6
+                  table.table
+                    tr
+                      td Name 
+                      td Doan Hoang
+                    tr
+                      td Date of birth
+                      td February 18, 1992 
+                    tr
+                      td Address
+                      td 184 Dien Bien Phu Street, HCM city
+                .col-md-6
+                  table.table
+                    tr
+                      td Email
+                      td = link_to "doan.hoangthe@gmail.com", "mailto:doan.hoangthe@gmail.com"
+                    tr
+                      td Phone
+                      td +84 985591651
+                    tr
+                      td Facebook
+                      td = link_to "http://www.facebook.com/htd1802", "http://www.facebook.com/htd1802", target: "_blank"
