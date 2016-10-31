@@ -1,0 +1,84 @@
+#home-index-container {
+  .social-links {
+    padding: 20px;
+    background: #fff;
+  }
+
+  .content-wrap {
+    display: inline-block;
+    width: 100%;
+    background: #fff;
+  }
+
+  .main-title {
+    border-bottom: 1px solid $gray_efefef;
+    padding: 0 10px 0 40px;
+    position: relative;
+
+    h2 {
+      margin: 0;
+      font-size: 15px;
+      margin-bottom: 10px;
+      color: $black_333;
+      text-transform: uppercase;
+      font-weight: 800;
+    }
+  }
+
+  .content {
+    padding: 40px;
+
+    h1 {
+      font-size: 28px;
+      line-height: 25px;
+      color: $black_333;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+      font-weight: 800;
+      margin: 0;
+      margin-bottom: 10px;
+    }
+
+    h3.position {
+      font-size: 22px;
+      color: $gray_777;
+      text-transform: uppercase;
+      margin: 0;
+      margin-bottom: 10px;
+      font-weight: 300;
+    }
+  }
+
+  section#who-am-i {
+    .description {
+      line-height: 22px;
+      color: $gray_999;
+      font-size: 14px;
+      margin-bottom: 15px;
+    }
+  }
+
+  table {
+    tr {
+      background: $gray_fafafa;
+
+      td {
+        border: 1px solid $gray_efefef;
+        font-weight: 300;
+        color: $gray_666;
+
+        &:first-child {
+          background-color: #fff;
+          text-align: center;
+          font-weight: 700;
+          color: $black_333;
+        }
+
+        a {
+          color: $gray_666;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

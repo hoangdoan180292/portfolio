@@ -1,2 +1,16 @@
-@import "bootstrap-sprockets";
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800");
+
 @import "bootstrap";
+@import "bootstrap-sprockets";
+@import "fonts";
+@import "_variables";
+@import "_mixins";
+
+@import "global";
+
+@import "home/index";
+
+@import "shared/_user_information";
+@import "shared/_left_menu";
+@import "shared/_social_links";
+@import "shared/_copyright";
