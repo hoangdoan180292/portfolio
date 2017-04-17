@@ -143,3 +143,8 @@
   -o-transition-timing-function: $variable;
   transition-timing-function: $variable;
 }
+
+@mixin animation($delay, $animation) {
+  animation-delay: $delay;
+  animation-name: $animation;
+}

@@ -5,6 +5,7 @@
 @import "fonts";
 @import "_variables";
 @import "_mixins";
+@import "_keyframes";
 
 @import "global";
 
@@ -14,3 +15,5 @@
 @import "shared/_left_menu";
 @import "shared/_social_links";
 @import "shared/_copyright";
+
+@import "responsive";

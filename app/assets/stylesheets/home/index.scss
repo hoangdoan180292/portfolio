@@ -82,4 +82,84 @@
       }
     }
   }
+
+  section#professionnal-skills {
+    .box {
+      @media (min-width: 992px) {
+        @include flex;
+
+        @include align-items(center);
+      }
+    }
+
+    .title-box {
+      padding: 5px 25px;
+      text-align: center;
+      text-transform: uppercase;
+      top: 0;
+      border: 1px dashed #cd5353;
+      color: $gray_666;
+
+      @media (min-width: 992px) {
+        position: absolute;
+        left: -15px;
+
+        @include transform(rotate(90deg));
+      }
+
+      @media (max-width: 991px) {
+        position: relative;
+        left: 0;
+        display: table;
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  .progress-container {
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+
+      h4 {
+        display: block;
+        text-transform: uppercase;
+        margin-bottom: 0;
+        font-size: 13px;
+        color: $gray_666;
+      }
+
+      .bar-container {
+        height: 15px;
+        width: 100%;
+        margin-top: 10px;
+        border: 1px solid #cd5353;
+        position: relative;
+
+        @include border-radius(10px);
+      }
+
+      .progress {
+        background-color: #cd5353;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 0;
+        height: 100%;
+        width: 0px;
+        border-radius: 0;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+      }
+
+      .percent {
+        position: absolute;
+        right: 10px;
+        top: 1px;
+        font-size: 9px;
+        color: #fff;
+      }
+    }
+  }
 }
